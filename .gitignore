@@ -1,0 +1,12 @@
+/.bundle
+/bundle
+
+/log
+/config
+
+# Rubymine
+/.idea
+
+# OS X
+.DS_Store
+
