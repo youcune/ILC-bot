@@ -1,5 +1,6 @@
 require 'rspec'
 require 'date'
+require 'active_support/core_ext'
 require_relative '../ILC_bot'
 
 describe 'ILC_bot' do
@@ -19,7 +20,7 @@ describe 'ILC_bot' do
     it 'は金曜日が祝日の場合、前日の木曜日にtrueとメッセージを返す' do
       t, m = tweets?(Date.new(2014, 3, 20))
       expect(t).to be_truthy
-      expect(m).to be_present
+      expect(m).to eq '※金曜日は祝日です'
     end
   end
 end

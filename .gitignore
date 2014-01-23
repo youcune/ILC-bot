@@ -3,6 +3,7 @@
 
 /log
 /config
+!/config/*-example.yml
 
 # Rubymine
 /.idea
