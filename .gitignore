@@ -1,8 +1,7 @@
 /.bundle
 /bundle
 
-/log
-/config
+/config/*.yml
 !/config/*-example.yml
 
 # Rubymine
